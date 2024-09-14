@@ -12,9 +12,9 @@ The game will be designed so that players are not able to act against each other
 - JavaScript - Provides login, gameplay view, stats display, backend endpoint calls.
 - React - Single page application with views componentized and reactive to user's actions.
 - Service - Backend service with endpoints for:
- - retrieving game state
- - submitting player actions
- - retrieving statistics
+  - retrieving game state
+  - submitting player actions
+  - retrieving statistics
 - Create enemy spawns based off of confirmed wildlife sightings from the iNaturalist API.
 - DB/Login - Store users, resources/territory ownership and map data in database. Register and login users. Credentials securely stored in database. Can't play without being logged into an account.
 - WebSocket - Player actions affect board in real time, board updates are recieved in real time.
